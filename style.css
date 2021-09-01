@@ -1,0 +1,32 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.formContainer {
+    height: 700px;
+    width: 725px;
+    margin: 75px auto auto auto;
+    background-color: rgb(192, 192, 192);
+    border-radius: 10px;
+}
+
+.formImage {
+    height: 200px;
+    width: 725px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.fit {
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
