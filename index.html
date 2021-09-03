@@ -4,14 +4,27 @@
       <title>Simple Validation Form</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="stylesheet" href="style.css"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
         <div class='formContainer'>
             <div class='formImage'>
                 <img class='fit' src='./tent.jpg' height='200px' width='725px'>
             </div>
-            <div class='infoContainer'>
-
+            <div class='inputContainer'>
+                <fieldset>
+                    <h1 class='registration'>Registration Info</h1>
+                    <div class='formInput' id='name'></div>
+                    <div class='formInput' id='email'></div>
+                    <div class='locationContainer'>
+                        <div class='formInput' id='country'></div>
+                        <div class='formInput' id='zipcode'></div>
+                    </div>
+                    <div class='formInput' id='password'></div>
+                    <div class='formInput' id='confirm'></div>
+                </fieldset>
             </div>
         </div>
     <script src='script.js'></script>
