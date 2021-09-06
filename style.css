@@ -10,7 +10,7 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: rgb(110, 137, 160);
+    background-color: rgb(173, 173, 173);
 }
 
 fieldset {
@@ -70,6 +70,15 @@ fieldset {
 
 input::placeholder {
     text-align: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input:invalid {
+   background-color: rgba(212, 102, 102, 0.3);     
 }
 
 .submit {
