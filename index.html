@@ -15,18 +15,24 @@
             </div>
             <div class='inputContainer'>
                 <fieldset>
-                    <h1 class='registration'>Registration Info</h1>
-                    <input type='text' class='formInput' id='name' placeholder='Name' required>
-                    <input type='email' class='formInput' id='email' placeholder='Email' required>
-                    <div class='locationContainer'>
-                        <input type='text' class='formInput' id='country' placeholder='Country' required>
-                        <input type='text' class='formInput' id='zipcode' placeholder='ZipCode' required>
-                    </div>
-                    <input type='text' class='formInput' id='password' placeholder='Password' required>
-                    <input type='text' class='formInput' id='confirm' placeholder='Confirm Password' required>
-                    <button type='submit' class='submit' id='submit'>Submit</button>
+                    <form autocomplete='off'>
+                        <h1 class='registration'>Registration Info</h1>
+                        <input type='text' class='formInput' id='name' placeholder='Name' maxlength='60'>
+                        <input type='email' class='formInput' id='mail' placeholder='Email' minlength='8'>
+                        <div class='locationContainer'>
+                            <input type='text' class='formInput' id='country' placeholder='Country'>
+                            <input type='text' class='formInput' id='zipcode' placeholder='ZipCode'>
+                        </div>
+                        <input type='text' class='formInput' id='password' placeholder='Password'>
+                        <input type='text' class='formInput' id='confirm' placeholder='Confirm Password'>
+                        <button type='submit' class='submit' id='submit'>Submit</button>
+                    </form>
                 </fieldset>
+
+                
+
             </div>
+
         </div>
     <script src='script.js'></script>
   </body>
