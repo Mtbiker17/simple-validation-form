@@ -16,14 +16,15 @@
             <div class='inputContainer'>
                 <fieldset>
                     <h1 class='registration'>Registration Info</h1>
-                    <div class='formInput' id='name'></div>
-                    <div class='formInput' id='email'></div>
+                    <input type='text' class='formInput' id='name' placeholder='Name' required>
+                    <input type='email' class='formInput' id='email' placeholder='Email' required>
                     <div class='locationContainer'>
-                        <div class='formInput' id='country'></div>
-                        <div class='formInput' id='zipcode'></div>
+                        <input type='text' class='formInput' id='country' placeholder='Country' required>
+                        <input type='text' class='formInput' id='zipcode' placeholder='ZipCode' required>
                     </div>
-                    <div class='formInput' id='password'></div>
-                    <div class='formInput' id='confirm'></div>
+                    <input type='text' class='formInput' id='password' placeholder='Password' required>
+                    <input type='text' class='formInput' id='confirm' placeholder='Confirm Password' required>
+                    <button type='submit' class='submit' id='submit'>Submit</button>
                 </fieldset>
             </div>
         </div>
