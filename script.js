@@ -3,8 +3,9 @@ const email = document.getElementById('mail');
 const submit = document.getElementById('submit');
 const input = document.querySelectorAll('input');
 
-nameField.addEventListener('focusout', (e) => {
-    if(nameField.value == null || nameField.value == '') {
+nameField.addEventListener('input', (e) => {
+    
+    if(nameField.value == null || nameField.value.trim() == '') {
         nameField.setCustomValidity('Name cannot be blank')
     } else {
         nameField.setCustomValidity('');
