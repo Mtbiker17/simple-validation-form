@@ -33,10 +33,10 @@
                                 <option value='Dorne'>Dorne</option>
                                 <option value='Beyond the Wall'>Beyond the Wall</option>
                             </select>
-                            <input type='text' class='formInput' id='zipcode' placeholder='ZipCode'>
+                            <input type='text' class='formInput' id='zipcode' placeholder='ZipCode' maxlength='5' minlength='5' pattern='\d{5}'>
                         </div>
-                        <input type='text' class='formInput' id='password' placeholder='Password'>
-                        <input type='text' class='formInput' id='confirm' placeholder='Confirm Password'>
+                        <input type='password' class='formInput' id='password' placeholder='Password' minlength='12'>
+                        <input type='password' class='formInput' id='verify' placeholder='Confirm Password'>
                         <button type='submit' class='submit' id='submit'>Submit</button>
                     </form>
                 </fieldset>
