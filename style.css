@@ -81,6 +81,10 @@ input:invalid {
    background-color: rgba(212, 102, 102, 0.3);     
 }
 
+select:invalid {
+    background-color: rgba(212, 102, 102, 0.3);
+}
+
 .submit {
     margin-top: 30px;
     width: 20%;
