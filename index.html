@@ -17,10 +17,10 @@
                 <fieldset>
                     <form autocomplete='off'>
                         <h1 class='registration'>Registration Info</h1>
-                        <input type='text' class='formInput' id='name' placeholder='Name' maxlength='60'>
-                        <input type='email' class='formInput' id='mail' placeholder='Email' minlength='8'>
+                        <input type='text' class='formInput' id='name' placeholder='Name' maxlength='60' required>
+                        <input type='email' class='formInput' id='mail' placeholder='Email' minlength='8' required>
                         <div class='locationContainer'>
-                            <select class='formInput' id='country'>
+                            <select class='formInput' id='country' required>
                                 <option value='' selected>Select Region</option>
                                 <option value='The North'>The North</option>
                                 <option value='The Vale of Arryn'>The Vale of Arryn</option>
@@ -33,18 +33,14 @@
                                 <option value='Dorne'>Dorne</option>
                                 <option value='Beyond the Wall'>Beyond the Wall</option>
                             </select>
-                            <input type='text' class='formInput' id='zipcode' placeholder='ZipCode' maxlength='5' minlength='5' pattern='\d{5}'>
+                            <input type='text' class='formInput' id='zipcode' placeholder='ZipCode' maxlength='5' minlength='5' pattern='\d{5}' required>
                         </div>
-                        <input type='password' class='formInput' id='password' placeholder='Password' minlength='12'>
-                        <input type='password' class='formInput' id='verify' placeholder='Confirm Password'>
+                        <input type='password' class='formInput' id='password' placeholder='Password' minlength='12' required>
+                        <input type='password' class='formInput' id='verify' placeholder='Confirm Password' required>
                         <button type='submit' class='submit' id='submit'>Submit</button>
                     </form>
                 </fieldset>
-
-                
-
             </div>
-
         </div>
     <script src='script.js'></script>
   </body>
