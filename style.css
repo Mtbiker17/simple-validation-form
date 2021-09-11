@@ -81,8 +81,16 @@ input:invalid {
    background-color: rgba(212, 102, 102, 0.3);     
 }
 
+input:required {
+    background-color: white;
+}
+
 select:invalid {
     background-color: rgba(212, 102, 102, 0.3);
+}
+
+select:required {
+    background-color: white;
 }
 
 .submit {
